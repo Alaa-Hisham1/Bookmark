@@ -1,0 +1,65 @@
+<html>
+<head>
+  <meta charSet="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bookmark</title>
+        <link rel="stylesheet" href="https://fontawesome.com/icons/book-bookmark?f=classic&s=solid">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="bookMark.css">
+  
+</head>
+<body>
+    <div class="warning d-none" id="alert">
+        <div class="k">
+        <div class="t">
+        <div class="c1 "></div>
+        <div class="c2 "></div>
+        <div class="c3 "></div>
+    </div>
+        <div class="exit">
+            <button onclick="closeAlert()">X</button>
+        </div>
+    </div>
+       <h4> Site Name or Url is not valid, Please follow the rules below : </h4>
+       <p>*Site name must contain at least 3 characters</p>
+       <p>*Site URL must be a valid one</p>
+    </div>
+    <h1>Bookmarker</h1>
+    <div class="input-here">
+    <h3>...........................................................................................................................................</h3>
+    <h2><i class="fa-solid fa-bookmark"></i>
+         Bookmark your favorite sites
+        <i class="fa-solid fa-bookmark"></i></h2>
+    <div class="for-label">
+    <label for="siteName"> <i class="fa-solid fa-book-bookmark"></i>SiteName</label>
+    <input oninput="validationInputs(this)"  type="text" id="siteName" class="form-control p-3 border-0 border-bottom" placeholder="Bookmark Name">
+</div>
+<div class="for-label">
+    <label for="siteURL"> Site URL</label>
+    <input oninput="validationInputs(this)" type="text" id="siteURL" class="form-control p-3 border-0 border-bottom" placeholder="Website URL">
+</div>
+<button class="btn btn-danger text-white my-btn" onclick="addSite()"> Submit </button>
+
+<h3>...........................................................................................................................................</h3>
+</div>
+<div class="container">
+    <div class="mark">
+        <h5 class="w-25">Index</h5>
+        <h5 class="w-25">WebsiteName</h5>
+        <h5 class="w-25">Visit</h5>
+        <h5 class="w-25">Delete</h5>
+    </div>
+    <div id="rowData">
+        
+      
+
+
+    </div>
+</div>
+    <script src="js/bootstrap.bundle.js"></script>
+  <script src="bookMark.js"></script>  
+</body>

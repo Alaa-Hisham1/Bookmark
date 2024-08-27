@@ -1,0 +1,101 @@
+body{
+    background-color: #F7ECDE;
+
+}
+h1{
+    margin: 40px 0;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-image:  linear-gradient(to right, rgb(60, 165, 92), rgb(181, 172, 73));
+    font-family: "Righteous", sans-serif;
+    font-weight: 500px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.for-label{
+    margin:20px ;
+}
+label{
+    font-family: "Righteous", sans-serif;
+    font-weight: 500px;
+}
+.my-btn{
+    
+    padding: 5px 20px;
+    transform: translateX(500px);
+}
+.input-here{
+    width:80%;
+    margin: auto;
+}
+
+.mark{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:5px 0;
+    padding:10px 0;
+}
+h5{
+    text-align: center;
+}
+.my-btn2{
+    
+    
+    transform: translateX(105px);
+}
+.k{
+    display: flex;
+    justify-content: space-between;
+}
+.warning{
+    
+    padding:30px 40px;
+    z-index: 3;
+    width:40%;
+    height:300px;
+    background-color: white;
+    position:absolute;
+    top:50%;
+    transform: translate(400px);
+    /* transform: translate(50%,50%); */
+    border-radius: 3%;
+    
+}
+.warning .c1{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.warning .c2{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    background-color: green;
+    border-radius: 50%;
+}
+.warning .c3{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+.warning .exit{
+    display:inline-block;
+    
+    
+    background-color: #04AA6D; /* Green */
+  
+}
